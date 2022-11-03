@@ -34,7 +34,7 @@ struct ContentView: View {
                                         } else if button == .clear{
                                         
                                             kvm.clearText()
-                                        }else if button == .backspace {
+                                        }else if button == .backspace{
                                             kvm.backspace()
                                         }
                                         else {
