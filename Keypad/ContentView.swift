@@ -11,6 +11,7 @@ struct ContentView: View {
     @StateObject var kvm = ViewModel()
     var body: some View {
         VStack {
+            
             HStack{
                 Text(kvm.label).foregroundColor(.black)
                     .font(.system(size: 25))
